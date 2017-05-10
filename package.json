@@ -1,0 +1,5 @@
+{
+  "name": "rails-wercker-test",
+  "private": true,
+  "dependencies": {}
+}

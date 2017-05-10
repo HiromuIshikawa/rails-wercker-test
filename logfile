@@ -1,0 +1,16 @@
+LOG:  database system was shut down at 2017-05-10 11:02:20 JST
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  autovacuum launcher started
+LOG:  database system is ready to accept connections
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2017-05-10 11:04:03 JST
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  autovacuum launcher started
+LOG:  database system is ready to accept connections
+FATAL:  database "ishikawa" does not exist
+ERROR:  role "ishikawa" already exists
+STATEMENT:  CREATE ROLE ishikawa PASSWORD 'md57fcdcf59255b8ba1d6c9b9bda868d2f0' NOSUPERUSER NOCREATEDB NOCREATEROLE INHERIT LOGIN;
