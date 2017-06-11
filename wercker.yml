@@ -23,7 +23,6 @@ build:
     steps:
         - bundle-install
         - rails-database-yml
-        - aussiegeek/install-phantomjs
         - script:
             name: rspec
             code: bundle exec rspec
