@@ -17,14 +17,20 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  # For details on connection pooling, see Rails configuration guide
-  # http://guides.rubyonrails.org/configuring.html#database-pooling
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  database: rails_dev
+  pool: 5
+  username: rails_user
+  password: oumu0120
+  host: localhost
 
 development:
-  <<: *default
-  database: rails-wercker-test_development
-
+  adapter: postgresql
+  encoding: unicode
+  database: rails_dev
+  pool: 5
+  username: rails_user
+  password: oumu0120
+  host: localhost
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is

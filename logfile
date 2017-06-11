@@ -14,3 +14,9 @@ LOG:  database system is ready to accept connections
 FATAL:  database "ishikawa" does not exist
 ERROR:  role "ishikawa" already exists
 STATEMENT:  CREATE ROLE ishikawa PASSWORD 'md57fcdcf59255b8ba1d6c9b9bda868d2f0' NOSUPERUSER NOCREATEDB NOCREATEROLE INHERIT LOGIN;
+LOG:  stats_timestamp 2017-05-16 16:14:49.875425+09 is later than collector's time 2017-05-16 16:14:49.279432+09 for database 12669
+LOG:  stats_timestamp 2017-05-17 13:25:04.451636+09 is later than collector's time 2017-05-17 13:25:03.70055+09 for database 16385
+LOG:  autovacuum launcher shutting down
+LOG:  received smart shutdown request
+LOG:  shutting down
+LOG:  database system is shut down
