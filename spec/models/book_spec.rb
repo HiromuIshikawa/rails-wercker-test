@@ -8,6 +8,6 @@ RSpec.describe Book, :type => :model do
   it "isn't valid without title" do
     book = Book.new
     book.title = nil
-    expect(book).to be_valid
+    expect(book).not_to be_valid
   end
 end
